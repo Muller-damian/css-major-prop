@@ -1,0 +1,35 @@
+.container {
+    margin-left: 20%;
+
+}
+.container2 {
+    width: 64%;
+    /*height: 950px*/;
+    background-color:grey ;
+    margin-left: 20%;
+    box-shadow: 20px 40px rgba(35,27,33,0.25) ;
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration:none ;
+    list-style-type: square;
+}
+p {
+    font-style: italic;
+    
+}
+h1 {
+    color: black;
+    margin-left: 17%;
+}
+h2 {
+    color: white;
+    /*margin-left: 15%*/;
+    /*margin-right: 10%*/;
+    
+}
+header {
+    margin-left: 400px;
+}
+.a {
+    list-style-type: square;
+}
