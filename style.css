@@ -1,35 +1,64 @@
-.container {
-    margin-left: 20%;
+body {
+  padding: 80px 0;
+}
 
+.container {
+  /* margin-left: 20%; */
+
+  /* instead of margin-left, you can specify a width 
+    and give it auto margin so as to make it responsive a little */
+  width: 60%;
+  margin: 30px auto;
+}
+
+/* i declared this selector for the img so, when i want to alter its size, i'd */
+/* do that to the parent only */
+.container img {
+  width: 100%;
+  height: auto;
 }
 .container2 {
-    width: 64%;
-    /*height: 950px*/;
-    background-color:grey ;
-    margin-left: 20%;
-    box-shadow: 20px 40px rgba(35,27,33,0.25) ;
-    padding: 10px;
-    border: 1px solid black;
-    text-decoration:none ;
-    list-style-type: square;
+  width: 60%;
+  /*height: 950px*/
+  /* background-color: grey; */
+  background-color: rgba(35, 27, 33, 0.25);
+
+  /* make the margin on the left and the right of the container auto */
+  /* margin-left: 20%; */
+  margin: 30px auto;
+
+  /* box-shadow: 20px 40px rgba(35, 27, 33, 0.25); */
+  /* box shadow should have a four values and a color value */
+  box-shadow: 20px 20px 20px 0 #0e0d11;
+
+  padding: 20px;
+  /* border: 1px solid black; */
+  border: none;
+  /* text-decoration: none; */
+  /* list-style-type: square; */
 }
 p {
-    font-style: italic;
-    
+  font-style: italic;
+}
+
+ul {
+  font-style: italic;
+  list-style: disc;
+  line-height: 2;
 }
 h1 {
-    color: black;
-    margin-left: 17%;
+  color: black;
+  margin-left: 17%;
 }
 h2 {
-    color: white;
-    /*margin-left: 15%*/;
-    /*margin-right: 10%*/;
-    
+  color: white;
+  text-shadow: 5px 5px 10px white;
+  /*margin-left: 15%*/
+  /*margin-right: 10%*/
 }
 header {
-    margin-left: 400px;
+  margin-left: 400px;
 }
 .a {
-    list-style-type: square;
+  list-style-type: square;
 }
