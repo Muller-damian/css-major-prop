@@ -1,20 +1,34 @@
-.container {
-    margin-left: 20%;
+body {
+    padding: 80px 0
 
+}
+.container {
+    /*margin-left: 20%;*/
+    width: 60%;
+    margin: 30px auto;
+}
+.container img {
+    width: 100%;
+    height: auto;
 }
 .container2 {
     width: 64%;
-    /*height: 950px*/;
-    background-color:grey ;
-    margin-left: 20%;
-    box-shadow: 20px 40px rgba(35,27,33,0.25) ;
-    padding: 10px;
-    border: 1px solid black;
+    box-shadow: 20px 20px 20px 0px #0e0d11;
+    padding: 20px;
     text-decoration:none ;
-    list-style-type: square;
+    /*list-style-type: square;*/
+    background-color: rgba(35,27,33,0.25);
+    margin: 30px auto
+     
 }
-p {
+ul {
     font-style: italic;
+    list-style: disc;
+    line-height: 2;
+}
+li {
+    /*font-style: italic;
+    line-height: 2*/
     
 }
 h1 {
@@ -23,6 +37,7 @@ h1 {
 }
 h2 {
     color: white;
+    text-shadow: 5px 5px 10px white;
     /*margin-left: 15%*/;
     /*margin-right: 10%*/;
     
